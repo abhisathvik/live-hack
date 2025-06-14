@@ -1,0 +1,15 @@
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+
+ALGOD_TOKEN = os.getenv("ALGOD_TOKEN", "")
+ALGOD_ADDRESS = os.getenv("ALGOD_ADDRESS")
+
+CREATOR_MNEMONIC = os.getenv("CREATOR_MNEMONIC")
+FREEZE_MNEMONIC = os.getenv("FREEZE_MNEMONIC")
+CLAWBACK_MNEMONIC = os.getenv("CLAWBACK_MNEMONIC")
+RESERVE_MNEMONIC = os.getenv("RESERVE_MNEMONIC")
+
+PINATA_API_KEY = os.getenv("PINATA_API_KEY")
+PINATA_SECRET_API_KEY = os.getenv("PINATA_SECRET_API_KEY")
