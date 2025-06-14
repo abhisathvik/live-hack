@@ -46,7 +46,7 @@ bash
  
  NFT_STORAGE_API_KEY = "your-nft-storage-api-key"
 
-#🚀 Usage Guide
+# 🚀 Usage Guide
  
  ✅ 1. ASA Creation 
  
@@ -64,7 +64,7 @@ bash
  
  python3 clawback_transfer.py
 
-#🔐 Role Management
+# 🔐 Role Management
  
  Manager: Full control over ASA parameters
  
